@@ -24,6 +24,11 @@ public class NPCWave : MonoBehaviour
         {
             //wave
             animator.SetTrigger("wave");
+            AudioSource audioSource = GetComponent<AudioSource>();
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
             //animator.ResetTrigger("wave");
             //animator.SetBool("test", true);
         }
