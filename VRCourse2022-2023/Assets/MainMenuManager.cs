@@ -16,7 +16,7 @@ public class MainMenuManager : MonoBehaviour
     public void StartApp()
     {
         blocker.SetActive(true);
-        SceneManager.LoadSceneAsync("SampleScene");
+        SceneManager.LoadSceneAsync("FantasyLand");
     }
 
     public void Quit()
