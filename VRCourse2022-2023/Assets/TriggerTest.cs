@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TriggerTest : MonoBehaviour
 {
     string message = "Welcome stranger";
+
+    [SerializeField] UnityEvent onPlayerTrigger;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +26,8 @@ public class TriggerTest : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             UIManager.Instance.ShowMessage(message);
+
+            onPlayerTrigger.Invoke();
         }
     }
 }
