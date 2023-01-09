@@ -1,0 +1,31 @@
+newmtl WoodWall_1
+bump Wood1Vert 1.png
+map_Kd Wood1Vert.png
+Kd 0.6360289 0.6393769 0.7579073
+d 1
+
+newmtl Wood2
+bump TexturesCom_WoodPlanksOld0282_2_seamless_S 1.png
+map_Kd TexturesCom_WoodPlanksOld0282_2_seamless_S.png
+Kd 1 1 1
+d 1
+
+newmtl Roof1
+bump Roof1PNG 1.png
+map_Kd Roof1PNG.png
+Kd 0.9665251 1 0.9485369
+d 1
+
+newmtl Wood4
+bump BoardsPNG 1.png
+map_Kd BoardsPNG.png
+Kd 0.8444624 0.9311068 0.9996392
+d 1
+
+newmtl Barrel
+map_Pm Barrel_Metallic 2.png
+bump Barrel_Normal.png
+map_Kd Barrel.png
+Kd 1 1 1
+d 1
+
